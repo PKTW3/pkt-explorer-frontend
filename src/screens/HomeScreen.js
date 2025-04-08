@@ -17,7 +17,7 @@ const HomeScreen = (props) => {
   if (hasErr) console.error(hasErr)
 
   useEffect(() => {
-    document.title = 'Pktc - Home'
+    document.title = 'PacketCrypt - Home'
   }, [])
 
   const topBlock = -1

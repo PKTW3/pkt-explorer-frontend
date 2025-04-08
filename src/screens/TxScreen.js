@@ -71,7 +71,7 @@ const inBlock = ({ txData, isUnconfirmed }) => mkRow(
 
 const TxStats = ({ txData, nextBlk, topBlk, statsCoins }) => {
   useEffect(() => {
-    document.title = `Pktc - Tx: ${txData.txid}`
+    document.title = `PacketCrypt - Tx: ${txData.txid}`
   }, [txData])
   let confirmations = 'Unconfirmed'
   let isUnconfirmed = false

@@ -80,7 +80,7 @@ const CustomTooltip = ({ datum }) => {
   }
   return <div>
     {datum ? date : ''}<br/>
-    {datum ? `earning: ${parseFloat(datum.secondary).toFixed(2)} PKTC` : ''}
+    {datum ? `earning: ${parseFloat(datum.secondary).toFixed(2)} PacketCrypt` : ''}
   </div>
 }
 

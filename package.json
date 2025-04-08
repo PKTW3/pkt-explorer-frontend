@@ -1,6 +1,6 @@
 {
-  "name": "pkt-front",
-  "version": "0.1.2",
+  "name": "pkt-frontend-explorer",
+  "version": "0.1.21",
   "private": true,
   "dependencies": {
     "@babel/preset-env": "^7.9.5",

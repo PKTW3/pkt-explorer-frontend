@@ -39,7 +39,7 @@ const BlockScreen = (props) => {
   useInterval(getTop, 30000)
 
   useEffect(() => {
-    document.title = `Pktc - Block: ${id}`
+    document.title = `PacketCrypt - Block: ${id}`
   }, [id])
 
   useEffect(() => {

@@ -1,14 +1,12 @@
-# PKTC explorer
+# PacketCrypt explorer
 
-This is a block explorer designed for the [PKTC](https://pkt.cash/classic) blockchain.
-PKTC is based on bitcoin code so this explorer can be used with bitcoin but will need
+This is a block explorer designed for the PacketCrypt [PKTC] blockchain.
+PacketCrypt is based on bitcoin code so this explorer can be used with bitcoin but will need
 some minor development in order to disable PKTC-specific information.
-
-NOTE: The PKT project has since moved to a smart contract on the BASE chain. PKTC is not the same as PKT.
 
 ## Installation
 In order to run this block explorer, you will need to first install the API server
-which you will find at [cjdelisle/pkt-explorer-backend](https://github.com/cjdelisle/pkt-explorer-backend)
+which you will find at https://github.com/PKTW3/pkt-explorer-backend
 
 Once the backend API server has been setup, you can compile this block explorer using
 the following:
