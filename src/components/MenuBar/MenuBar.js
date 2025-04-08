@@ -90,7 +90,6 @@ const MenuBar = ({ hasAlert, nsAddr }) => {
                       <TopLink to='/transactions'>Transactions</TopLink>
                       <TopLink to='/rich'>Rich list</TopLink>
                       <TopLink to='/miners'>Top miners</TopLink>
-                      {nsAddr && <TopLink to={`/address/${nsAddr}`}>Network Steward</TopLink>}
                     </TopMenu>
                   </>
                 )}

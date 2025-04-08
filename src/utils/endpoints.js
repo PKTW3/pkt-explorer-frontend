@@ -1,4 +1,7 @@
-const backendURL = process.env.REACT_APP_BACKEND_URL || 'https://pkt.cash'
+import 'dotenv/config'
+
+const backendURL = process.env.REACT_APP_BACKEND_URL
+
 export default {
   statsCoinsApi: `${backendURL}/api/v1/PKT/pkt/stats/coins`,
   blkUpApi: `${backendURL}/api/v1/PKT/pkt/chain/up`,
