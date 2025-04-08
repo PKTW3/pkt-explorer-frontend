@@ -15,8 +15,7 @@ the following:
 
 Afterword a production version of the app will be placed in the `build` folder.
 If you do not set the `REACT_APP_BACKEND_URL` environment variable, your explorer
-will use the data from a backend server at https://pkt.cash/
-**Do not use the pkt.cash API server in production, it is not guaranteed stable**
+will not function
 
 This is a reactjs app so you can read about deployment on react's
 [deployment documentation](https://facebook.github.io/create-react-app/docs/deployment).
